@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: Comfortaa, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400; */
+    font-family: 'Helvetica Neue Cyr', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282626;
+    background-color: #f2f0f1;
+}
+
+.container {
+    max-width: 1242px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    border: none;
+    font-family: 'Helvetica Neue Cyr';
+    font-weight: 550;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.orange-text {
+    color: #FF8A00;
+}

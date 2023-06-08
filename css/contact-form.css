@@ -1,0 +1,31 @@
+.contact-form {
+    width: 280px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.contact-form__item {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-form__item:nth-child(2) {
+    margin-bottom: 35px;
+}
+
+.contact-form__input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.contact-form__button {
+    width: 220px;
+    padding: 12px 0;
+    color: #FF8A00;
+    background-color: #282626;
+}

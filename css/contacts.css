@@ -1,0 +1,28 @@
+.contacts {
+    padding: 167px 0 137px;
+    background-color: #FFFFFF;
+}
+
+.contacts__wrapper {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #F2F0F1;
+    border-radius: 20px;
+}
+
+.contacts__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.contacts__text {
+    margin-bottom: 20px;
+}
+
+.contacts__text_font_semi-bold {
+    font-weight: 550;
+}

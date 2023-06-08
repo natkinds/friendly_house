@@ -1,0 +1,14 @@
+.section__title {
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.section__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.section__text_font_semi-bold {
+    font-weight: 500;
+}

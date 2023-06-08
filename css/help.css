@@ -1,0 +1,41 @@
+.help {
+    padding-bottom: 179px;
+}
+
+.help__list {
+    counter-reset: list-item 0;
+    padding-left: 25px;
+}
+
+.help__item {
+    counter-increment: list-item 1;
+    padding-left: 100px;
+}
+
+.help__item:not(:last-child) {
+    margin-bottom: 120px;
+}
+
+.help__item::marker {
+    content: counter(list-item);
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #ff8a00;
+}
+
+.help__item-wrapper {
+    max-width: 500px;
+}
+
+.help__title {
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.help__subtitle {
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+}

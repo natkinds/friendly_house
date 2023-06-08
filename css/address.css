@@ -1,0 +1,27 @@
+.address {
+    margin-bottom: 30px;
+    font-style: normal;
+}
+
+.address__list-item {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.address__content {
+    padding-left: 38px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.address__phone {
+    background-image: url('../img/icon-call.svg');
+}
+
+.address__email {
+    background-image: url('../img/icon-email.svg');
+}
+
+.address__list-item:first-child {
+    margin-bottom: 10px;
+}
